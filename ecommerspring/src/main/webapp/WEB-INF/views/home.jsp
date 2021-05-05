@@ -8,6 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Welcome to ECommerce Application</h1>
+	<h1>Welcome to My E-commerce Application</h1>
 </body>
 </html>

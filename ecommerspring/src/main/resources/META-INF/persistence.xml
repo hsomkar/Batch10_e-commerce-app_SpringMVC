@@ -18,7 +18,7 @@
 				value="com.mysql.jdbc.Driver" />
 
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost:3306/springdb" />
+				value="jdbc:mysql://localhost:3306/spring_db" />
 
 			<property name="javax.persistence.jdbc.user" value="root" />
 

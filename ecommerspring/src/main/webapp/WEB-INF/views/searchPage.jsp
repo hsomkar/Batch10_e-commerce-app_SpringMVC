@@ -1,4 +1,4 @@
-<%@page import="com.te.ecom.beans.ItemBean"%>
+<%@page import="com.te.ecommerspring.beans.ItemBean"%>
 <%@page import="java.util.List"%>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
@@ -26,8 +26,6 @@ List<ItemBean> infoBeans = (List) request.getAttribute("infobeans");
 	}
 	%>
 
-
-
 	<fieldset>
 		<legend>Search</legend>
 		<form action="./search" method="get">
@@ -37,7 +35,6 @@ List<ItemBean> infoBeans = (List) request.getAttribute("infobeans");
 					<td>:</td>
 					<td><input type="number" name="aid" placeholder="Enter the ID"></td>
 				</tr>
-
 				<tr>
 					<td><input type="submit" value="Search"></td>
 				</tr>

@@ -11,18 +11,18 @@ String expMsg = (String) request.getAttribute("expMsg");
 </head>
 <body>
 	<table border="1" style="width: 100%; text-align: center;">
-		<tr style="background: lightgrey; color: blue; height: 30px">
-			<td style="font-size: 20px"><a href="./searchPage"
+		<tr style="background: lightblue; color: blue; height: 35px">
+			<td style="font-size: 15px"><a href="./searchPage"
 				style="text-decoration: none">Search </a></td>
-			<td style="font-size: 20px"><a href="./add"
+			<td style="font-size: 15px"><a href="./add"
 				style="text-decoration: none">Add Item </a></td>
-			<td style="font-size: 20px"><a href="./update"
+			<td style="font-size: 15px"><a href="./update"
 				style="text-decoration: none">Update </a></td>
-			<td style="font-size: 20px"><a href="./delete"
+			<td style="font-size: 15px"><a href="./delete"
 				style="text-decoration: none">Delete </a></td>
-			<td style="font-size: 20px"><a href="./getAll"
+			<td style="font-size: 15px"><a href="./getAll"
 				style="text-decoration: none">See All </a></td>
-			<td style="font-size: 20px"><a href="./logout"
+			<td style="font-size: 15px"><a href="./logout"
 				style="text-decoration: none">logout </a></td>
 		</tr>
 
